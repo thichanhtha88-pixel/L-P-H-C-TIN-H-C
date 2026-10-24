@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: "Times New Roman", Times, serif;
+    --font-serif: "Times New Roman", Times, serif;
+    --font-mono: "Times New Roman", Times, serif;
+  }
+
+  html,
+  body,
+  button,
+  input,
+  select,
+  textarea,
+  table,
+  th,
+  td,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  span,
+  a,
+  div {
+    font-family: "Times New Roman", Times, serif !important;
+  }
+
+  body {
+    background-color: #EAF5FF;
+    color: #0F172A;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+.recharts-text,
+.recharts-legend-item-text,
+.recharts-tooltip-wrapper {
+  font-family: "Times New Roman", Times, serif !important;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Custom subtle scrollbars */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #EAF5FF;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #93C5FD;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0066CC;
+}

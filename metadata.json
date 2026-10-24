@@ -1,0 +1,6 @@
+{
+  "name": "TIN HỌC TIỂU HỌC - Trường Tiểu học Thứ Ba",
+  "description": "Hệ thống quản lý và học tập môn Tin học dành cho giáo viên và học sinh tiểu học khối 3, 4, 5 - Trường Tiểu học Thứ Ba.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
